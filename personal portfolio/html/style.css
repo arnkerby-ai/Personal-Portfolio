@@ -24,6 +24,16 @@ body{
     
 }
 
+.hero1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    text-align: left;
+    
+}
+
 .hero-left img{
     width: 220px;
     height: 220px;
@@ -34,6 +44,7 @@ body{
     margin-right: 2rem;
 
 }
+
 
 .hero-text{
     max-width: 1000px;
