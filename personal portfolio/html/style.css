@@ -205,6 +205,22 @@ article p{
     font-size: 20px;
 }
 
+.footer{
+    width: 100;
+    text-align: left;
+    padding: 15px 0;
+    position: fixed;
+    margin-top: 30px;
+    font-size: 14px;
+    justify-content: left;
+}
+
+
+footer :hover{
+    color: #ffd54f;
+    text-decoration: underline;
+}
+
 @media (max-width: 768px){
     .hero{
         flex-direction: column;
