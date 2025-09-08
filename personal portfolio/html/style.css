@@ -1,7 +1,7 @@
 body{
     font-family: "Poppins", sans-serif;
     margin: 0;
-   background: linear-gradient(to right, #0c0044,#ffffff);
+   background: linear-gradient(to right, #0c0044,#848eeb);
    color: #fff;
    line-height: 1.6;
    height: 100%;
@@ -59,7 +59,7 @@ body{
 .hero h1{
     font-size: 2rem;
     margin: 0.2rem 0;
-    color: #fff;
+    color: #ffd54f;
     font-weight: 700;
 }
 
@@ -74,17 +74,19 @@ body{
     border-radius: 10px;
     margin-bottom: 1rem;
     font-size: 0.95rem;
+     border: 10px solid #a0a0a0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
 }
     
 .hero-info a{
     color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
+    
 }
 
-.hero-info :hover{
-    color: #fff176;
-}
 
 .hero-btn{
     display: inline-block;
@@ -149,31 +151,31 @@ nav a:hover::after{
     width: 100%;
 }
 
-#about{
+#hire{
     text-align: center;
     margin: 2rem auto;
     padding: 2rem;
     background: rgba(17, 0, 90, 0.4);
     border-radius: 15px;
     max-width: 700px;
+     border: 10px solid #a0a0a0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-#about, article{
+#hire, article{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#about:hover, article:hover{
-    transform: scale(1.02);
-    box-shadow: 0px 6px 20px rgba(17, 0, 90, 0.4);
-}
 
-#about h2{
-    font-size: 1.8rem;
+#hire h2{
+    font-size: 30px;
+    color: #ffd54f;
     margin-bottom: 1rem;
 }
 
-#about p{
-    font-size: 1rem;
+#hire p{
+    font-size: 15px;
     color: #f1f1f1;
 }
 
@@ -185,17 +187,22 @@ article{
     border-radius: 15px;
     max-width: 700px;
     transition: transform 0.3 ease;
+     border: 10px solid #a0a0a0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 
 article h3{
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-    color: #ffffff;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: #ffd54f;
+   
 }
 
 article p{
-    font-size: 1rem;
+    font-size: 20px;
 }
 
 @media (max-width: 768px){
@@ -205,11 +212,11 @@ article p{
     }
 
     .hero-left img{
-        margin: 0 auto 1rem;
+        margin: 0 auto 20px;
     }
 
     nav {
         flex-direction: column;
-        gap: 1rem;
+        gap: 10px;
     }
 }
