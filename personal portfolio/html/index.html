@@ -1,49 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Arn Kerby Batista | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html" class="active">Home</a>
-            <a href="about.html">About</a>
-            <a href="project.html">Project</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    <section class="hero" id="Home">
-        <div class="hero-left">
-            <img src="/personal portfolio/kerby/kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk.png" alt="Kerby">
-    <div class="hero-text"></div>
-    <h2>Hello World!</h2>
-    <h1>I'm Arn Kerby Batista</h1>
-    <p>I am currently Studying in St. John Paul College of Davao as a 3rd year BSIT Student</p>
-    <div class="hero-info">
-        <p>📍Elenita Heights Subd. Catalunan Grande, Davao City Philippines, 8000</p>
-        <p>📧arnkerby@gmail.com</p>
-        <p>📱0967-813-2697</p>
-    <a href="about.html" class="hero-btn"> More info </a>
-    </section>    
 
+<div class="bg-gradient"></div>
+<div class="particles" id="particles"></div>
 
+<!-- NAV -->
+<nav>
+  <a href="#home" class="active"><span>Home</span></a>
+  <a href="#about"><span>About</span></a>
+  <a href="#projects"><span>Projects</span></a>
+  <a href="#contact"><span>Contact</span></a>
+</nav>
 
-<section id="hire">
+<!-- HOME -->
+<section id="home">
+  <div class="hero">
+    <div class="hero-image-wrapper">
+      <div class="hero-glow"></div>
+      <img src="/personal portfolio/kerby/kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk.png" alt="Profile">
+    </div>
+
+    <div class="hero-text">
+      <p class="greeting">Hello World!</p>
+      <h1>I'm Arn Kerby Batista</h1>
+      <p class="subtitle">I am currently Studying in St. John Paul College of Davao as a 3rd year BSIT Student</p>
+      
+      <div class="hero-info">
+        <p>📍 Elenita Heights Subd. Catalunan Grande, Davao City Philippines, 8000</p>
+        <p>📧 arnkerby@gmail.com</p>
+        <p>📱 0967-813-2697</p>
+      </div>
+
+      <a href="#contact" class="hire-btn">
+        <span>Hire Me</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="hire-me-section">
     <h2>Hire me</h2>
-    <p>Hi! I am Arn Kerby Batista, I am passionate and capabale of learning languages. I am hoping that I can be at your service.</p>
+    <p>Hi! I am Arn Kerby Batista. I am passionate and capable of learning languages. I am hoping that I can be at your service.</p>
+  </div>
 </section>
 
-<article>
-    <h3>My own Portfolio Website</h3>
-    <p>A Website where all my Personal info are displayed</p>
-</article>
-<script>
-  </script>
+<!-- ABOUT -->
+<section id="about">
+  <h1>About Me</h1>
+  <div class="cards">
+    <div class="card reveal">
+      <h2>Bio</h2>
+      <p>Age: 25</p>
+      <p>Sex: Male</p>
+      <p>Address: Elenita Heights Catalunan Grande Davao City</p>
+      <p>Course: Bachelor of Science in Information Technology</p>
+      <p>Marital Status: Single</p>
+    </div>
+
+    <div class="card reveal">
+      <h2>My Goal</h2>
+      <p>To become a skilled developer and contribute to innovative IT solutions that solve real-world problems and improve people's lives.</p>
+    </div>
+  </div>
+
+  <div class="education-section">
+    <h2>My Educational Journey</h2>
+    <div class="school-grid">
+      <div class="school-card reveal">
+        <div class="school-logo">
+          <img src="/personal portfolio/kerby/503651160_1305395868262030_38084211817927813_n.jpg" alt="School 1">
+        </div>
+        <h3>Elementary School</h3>
+        <p>Mindawide Christian School Inc.</p>
+      </div>
+
+      <div class="school-card reveal">
+        <div class="school-logo">
+          <img src="/personal portfolio/kerby/download (2).jpg" alt="School 2">
+        </div>
+        <h3>Junior High School</h3>
+        <p>Mintal Comprehensive High School</p>
+      </div>
+
+      <div class="school-card reveal">
+        <div class="school-logo">
+          <img src="/personal portfolio/kerby/download (2).png" alt="School 3">
+        </div>
+        <h3>Senior High School</h3>
+        <p>Holy Child College of Davao</p>
+      </div>
+
+      <div class="school-card reveal">
+        <div class="school-logo">
+          <img src="/personal portfolio/kerby/download (3).png" alt="School 4">
+        </div>
+        <h3>College</h3>
+        <p>St. John Paul II College of Davao</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="languages-section reveal">
+    <h2>Languages I study</h2>
+    <div class="languages-list">
+      <div class="language-item">C++</div>
+      <div class="language-item">Java</div>
+      <div class="language-item">HTML</div>
+      <div class="language-item">CSS</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h1>My Projects</h1>
+  <div class="projects-grid">
+    <div class="project reveal">
+      <div class="project-img-wrapper">
+        <img src="/personal portfolio/kerby/34bad424-6a03-4093-bb51-65358b0fd8e8.jpg" alt="Networking Diorama">
+        <div class="project-overlay"></div>
+      </div>
+      <div class="project-content">
+        <h3>Networking Diorama</h3>
+        <p>Physical model of network and infrastructure showcasing practical networking concept.</p>
+      </div>
+    </div>
+
+    <div class="project reveal">
+      <div class="project-img-wrapper">
+        <img src="/personal portfolio/kerby/df1c928c-17e3-485a-99a1-1814a6e3b560.jpg" alt="E-commerce Website">
+        <div class="project-overlay"></div>
+      </div>
+      <div class="project-content">
+        <h3>E-commerce Website</h3>
+        <p>Full-featured online store built with modern frontend technologies and responsive design.</p>
+      </div>
+    </div>
+
+    <div class="project reveal">
+      <div class="project-img-wrapper">
+        <img src="/personal portfolio/kerby/88254ea4-aa36-477c-be53-77ab6bde06e2 (1).jpg" alt="C++ Project Simple Game">
+        <div class="project-overlay"></div>
+      </div>
+      <div class="project-content">
+        <h3>C++ Game</h3>
+        <p>Simple game demonstrating object-oriented programming basic principles and game logic.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h1>Contact Me</h1>
+
+  <div class="contact-grid">
+    <div class="contact-card reveal">📧 arnkerby@gmail.com</div>
+    <div class="contact-card reveal">📱 0967-813-2697</div>
+    <div class="contact-card reveal">
+      <a href="https://facebook.com/arn.kerby12" target="_blank">Facebook</a>
+    </div>
+    <div class="contact-card reveal">
+      <a href="https://github.com/arnkerby-ai" target="_blank">GitHub</a>
+    </div>
+  </div>
+
+  <form class="contact-form reveal" onsubmit="sendMail(event)">
+    <input id="name" placeholder="Your Name" required>
+    <input id="email" type="email" placeholder="Your Email" required>
+    <input id="subject" placeholder="Subject" required>
+    <textarea id="msg" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
 <footer>
-    <p>Arn Kerby Batista 09678132697</p>
+  © 2025 Arn Kerby Batista | All Rights Reserved
 </footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
